@@ -1,0 +1,39 @@
+---
+title: "HW1台大人組成的軌跡"
+author: "B02607022 簡士鈞"
+date: "2017/3/1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 故事源起 改標題
+加說明
+資料來源＋網址
+
+```{r}
+#貼Ｒcode
+rawData=read.csv('StudentNumber1945-2015.csv',header = TRUE)
+rawData=rawData[,-72]
+allLine=length(rawData[,1]) #看有幾個raw
+rawData=rawData[-allLine,]  #刪掉上一行
+year=rawData$年度    #yearId=rawData[,1]
+
+for(yid in c(1:length(rawData[,1])))
+{
+  barplot(as.matrix(rawData[yid,c(-1,-2)]),
+          main=paste0("國立台灣大學",rawData[yid,1],
+                      "年大學部總計",rawData[yid,2],"人"))
+}
+
+#img.src=連結
+#ifriend.src
+```
+
+
+
+## 加結論說明
+
+
