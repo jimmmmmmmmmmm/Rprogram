@@ -1,5 +1,5 @@
 ---
-title: "HW1雞豬交易量關係"
+title: "HW1"
 author: "B02607022 簡士鈞"
 date: "2017/3/19"
 output: html_document
@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 資料來源：http://ppg.naif.org.tw/naif/MarketInformation/Reference/reference.aspx
 
 ```{r cars}
-
 library(plotly)
 rawData=read.csv('HW1Transactions.csv',header = TRUE)
 for(yid in c(1:length(rawData[,1])))
@@ -24,6 +23,7 @@ for(yid in c(1:length(rawData[,1])))
           main=paste0("The Transactions of WhiteChicken,Chicken and Pigs",
                       " in ",rawData[yid,1],",2015"))
 }
+
 
 trace_0 <- rawData$W.Chicken
 trace_1 <- rawData$Chicken
@@ -37,8 +37,8 @@ p <- plot_ly(data, x = ~x, y = ~trace_0, name = 'White Chicken Transactions', ty
   add_trace(y = ~trace_2, name = 'Pigs Transactions', mode = 'lines+markers') 
 
 htmlwidgets::saveWidget(p,"HW1.html")
-
 ```
+
 另附上plotly結果網址：https://jimmmmmmmmmmm.github.io/Rprogram/R0301/HW1.html
   
   由圖中可發現，在二月時白肉雞交易量明顯最低，與該月疫情嚴重爆發遭撲殺上百萬隻白肉雞有關，因供給量減少使市場均衡量也受到影響，而有趣的是這其間土雞交易量略上升了，雖然禽流感疫情影響整個家禽產業，但這階段土雞沒受到嚴重波及，所以消費者不是以雞肉最大宗替代品豬肉作為選擇，可看出豬肉交易量也是下降的狀態。
