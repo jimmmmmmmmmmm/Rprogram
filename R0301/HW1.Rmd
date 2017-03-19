@@ -1,0 +1,46 @@
+---
+title: "HW1雞豬交易量關係"
+author: "B02607022 簡士鈞"
+date: "2017/3/19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+資料為2015年1-12月白肉雞、土雞及豬交易量，
+之所以選擇2015年是因為那年有較嚴重禽流感疫情，使白肉雞交易量有明顯變化幅度，
+可以藉由比較三種大宗肉品的交易量變化了解他們之間在經濟上的特性。
+資料來源：http://ppg.naif.org.tw/naif/MarketInformation/Reference/reference.aspx
+
+```{r cars}
+
+library(plotly)
+rawData=read.csv('HW1Transactions.csv',header = TRUE)
+for(yid in c(1:length(rawData[,1])))
+{
+  barplot(as.matrix(rawData[yid,c(-1,-1)]),
+          main=paste0("The Transactions of WhiteChicken,Chicken and Pigs",
+                      " in ",rawData[yid,1],",2015"))
+}
+
+trace_0 <- rawData$W.Chicken
+trace_1 <- rawData$Chicken
+trace_2 <- rawData$Pigs
+x <- c(1:12)
+
+data <- data.frame(x, trace_0, trace_1, trace_2)
+
+p <- plot_ly(data, x = ~x, y = ~trace_0, name = 'White Chicken Transactions', type = 'scatter', mode = 'lines') %>%
+  add_trace(y = ~trace_1, name = 'Chicken Transactions*1/3', mode = 'lines+markers') %>%
+  add_trace(y = ~trace_2, name = 'Pigs Transactions', mode = 'lines+markers') 
+
+htmlwidgets::saveWidget(p,"HW1.html")
+
+```
+另附上plotly結果網址：https://jimmmmmmmmmmm.github.io/Rprogram/R0301/HW1.html
+  
+  由圖中可發現，在二月時白肉雞交易量明顯最低，與該月疫情嚴重爆發遭撲殺上百萬隻白肉雞有關，因供給量減少使市場均衡量也受到影響，而有趣的是這其間土雞交易量略上升了，雖然禽流感疫情影響整個家禽產業，但這階段土雞沒受到嚴重波及，所以消費者不是以雞肉最大宗替代品豬肉作為選擇，可看出豬肉交易量也是下降的狀態。
+  另外，到8月時也有類似情形發生，白肉雞交易量又再度大幅下跌，而土雞交易量有明顯增加趨勢。
+  而到了年末11月，可發現白肉雞與土雞交易量都明顯下降了顯然有受到疫情影響，而豬肉量雖有小幅度的下降但是由雞肉受疫情影響程度來看還是可以合理推測這階段消費者會轉買替代品豬肉，至於豬肉量變動不符合經濟理論上替代效果可能與其本身會受自身疾病或飼料成本等生產者可能考慮的因素有關，而使生產量減少自然影響到市場均衡量。
