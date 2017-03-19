@@ -19,4 +19,4 @@ p <- plot_ly(data, x = ~x, y = ~trace_0, name = 'White Chicken Transactions', ty
   add_trace(y = ~trace_1, name = 'Chicken Transactions*1/3', mode = 'lines+markers') %>%
   add_trace(y = ~trace_2, name = 'Pigs Transactions', mode = 'lines+markers') 
 
-htmlwidgets::saveWidget(p,"HW1.html")
+htmlwidgets::saveWidget(p,"HW1plotely.html")
