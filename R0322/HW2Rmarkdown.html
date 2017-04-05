@@ -123,10 +123,6 @@ $(document).ready(function () {
 </div>
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
 <pre class="r"><code>rm(list=ls(all.names=TRUE))
 library(XML)
 library(RCurl)</code></pre>
@@ -196,11 +192,11 @@ time</code></pre>
 ## [40] &quot;2017/04/05 14:53&quot;</code></pre>
 <pre class="r"><code>views&lt;- xpathSApply(xmldoc, &quot;//span[@class=\&quot;views\&quot;]&quot;, xmlValue)
 views</code></pre>
-<pre><code>##  [1] &quot;80496&quot; &quot;41092&quot; &quot;30845&quot; &quot;540&quot;   &quot;114&quot;   &quot;780&quot;   &quot;890&quot;   &quot;2542&quot; 
-##  [9] &quot;3631&quot;  &quot;1402&quot;  &quot;2861&quot;  &quot;2954&quot;  &quot;27776&quot; &quot;4880&quot;  &quot;1763&quot;  &quot;21451&quot;
-## [17] &quot;2794&quot;  &quot;1284&quot;  &quot;3253&quot;  &quot;1390&quot;  &quot;2708&quot;  &quot;2193&quot;  &quot;26366&quot; &quot;10956&quot;
-## [25] &quot;683&quot;   &quot;6798&quot;  &quot;678&quot;   &quot;5921&quot;  &quot;2353&quot;  &quot;621&quot;   &quot;1211&quot;  &quot;1143&quot; 
-## [33] &quot;1118&quot;  &quot;291&quot;   &quot;5020&quot;  &quot;3254&quot;  &quot;2319&quot;  &quot;560&quot;   &quot;427&quot;   &quot;996&quot;</code></pre>
+<pre><code>##  [1] &quot;80585&quot; &quot;41144&quot; &quot;30882&quot; &quot;640&quot;   &quot;126&quot;   &quot;883&quot;   &quot;925&quot;   &quot;2561&quot; 
+##  [9] &quot;3653&quot;  &quot;1408&quot;  &quot;2883&quot;  &quot;2966&quot;  &quot;27916&quot; &quot;4914&quot;  &quot;1788&quot;  &quot;21515&quot;
+## [17] &quot;2811&quot;  &quot;1288&quot;  &quot;3262&quot;  &quot;1396&quot;  &quot;2716&quot;  &quot;2200&quot;  &quot;26385&quot; &quot;10965&quot;
+## [25] &quot;683&quot;   &quot;6811&quot;  &quot;679&quot;   &quot;5940&quot;  &quot;2359&quot;  &quot;622&quot;   &quot;1213&quot;  &quot;1146&quot; 
+## [33] &quot;1120&quot;  &quot;292&quot;   &quot;5031&quot;  &quot;3267&quot;  &quot;2328&quot;  &quot;561&quot;   &quot;431&quot;   &quot;1001&quot;</code></pre>
 <pre class="r"><code>alldata &lt;- data.frame(title, time, views)
 
 write.table(alldata, &quot;pttmovie.csv&quot;)
@@ -220,122 +216,122 @@ kable(data)</code></pre>
 <tr class="odd">
 <td align="left">【踩雷動畫】防制洗錢大作戰　小心被盯上</td>
 <td align="left">2017/04/05 18:08</td>
-<td align="right">80496</td>
+<td align="right">80585</td>
 </tr>
 <tr class="even">
 <td align="left">Apple Pay上路　台灣支付接獲10家品牌加入意願</td>
 <td align="left">2017/04/05 17:51</td>
-<td align="right">41092</td>
+<td align="right">41144</td>
 </tr>
 <tr class="odd">
 <td align="left">【羨慕片】開名車住豪宅　台灣Google薪水這麼高</td>
 <td align="left">2017/04/05 15:39</td>
-<td align="right">30845</td>
+<td align="right">30882</td>
 </tr>
 <tr class="even">
 <td align="left">獲亞馬遜「寵幸」　這家公司股價狂噴84%</td>
 <td align="left">2017/04/06 00:08</td>
-<td align="right">540</td>
+<td align="right">640</td>
 </tr>
 <tr class="odd">
 <td align="left">4月6日(四)　全球重要經濟數據預覽</td>
 <td align="left">2017/04/06 00:01</td>
-<td align="right">114</td>
+<td align="right">126</td>
 </tr>
 <tr class="even">
 <td align="left">韓女薪酸！　這家財閥女性年薪竟只有男性4成</td>
 <td align="left">2017/04/06 00:01</td>
-<td align="right">780</td>
+<td align="right">883</td>
 </tr>
 <tr class="odd">
 <td align="left">【多頭掃興】美庫存又創新高　油價跳水翻黑</td>
 <td align="left">2017/04/05 23:45</td>
-<td align="right">890</td>
+<td align="right">925</td>
 </tr>
 <tr class="even">
 <td align="left">就業數據太棒　美股道瓊勁揚近200點</td>
 <td align="left">2017/04/05 22:25</td>
-<td align="right">2542</td>
+<td align="right">2561</td>
 </tr>
 <tr class="odd">
 <td align="left">外匯存底增速緩　台灣有望從「匯率操縱國」中除名</td>
 <td align="left">2017/04/05 21:58</td>
-<td align="right">3631</td>
+<td align="right">3653</td>
 </tr>
 <tr class="even">
 <td align="left">預搶母親節刷卡潮　永豐遠銀祭優惠</td>
 <td align="left">2017/04/05 21:20</td>
-<td align="right">1402</td>
+<td align="right">1408</td>
 </tr>
 <tr class="odd">
 <td align="left">文曄及宣昶明暫停交易　或與合作或購併有關</td>
 <td align="left">2017/04/05 20:51</td>
-<td align="right">2861</td>
+<td align="right">2883</td>
 </tr>
 <tr class="even">
 <td align="left">【財訊】新升息時代來了 風險性資產更甜了</td>
 <td align="left">2017/04/05 20:05</td>
-<td align="right">2954</td>
+<td align="right">2966</td>
 </tr>
 <tr class="odd">
 <td align="left">【股民哭哭片】郭董要出走？　恐引爆台股淘空危機</td>
 <td align="left">2017/04/05 20:05</td>
-<td align="right">27776</td>
+<td align="right">27916</td>
 </tr>
 <tr class="even">
 <td align="left">兩千、兩百元鈔票被拒收　央行：會去電商家說明</td>
 <td align="left">2017/04/05 19:53</td>
-<td align="right">4880</td>
+<td align="right">4914</td>
 </tr>
 <tr class="odd">
 <td align="left">大同股權之爭再過招　市場派批紀念品分配不公</td>
 <td align="left">2017/04/05 19:31</td>
-<td align="right">1763</td>
+<td align="right">1788</td>
 </tr>
 <tr class="even">
 <td align="left">【郭董出手片】鴻海傳出價逾2兆日圓　東芝應聲大漲</td>
 <td align="left">2017/04/05 19:20</td>
-<td align="right">21451</td>
+<td align="right">21515</td>
 </tr>
 <tr class="odd">
 <td align="left">【財訊】現金減資大旺股 就比誰的底子硬</td>
 <td align="left">2017/04/05 19:10</td>
-<td align="right">2794</td>
+<td align="right">2811</td>
 </tr>
 <tr class="even">
 <td align="left">【科技新報】科學家利用石墨烯製造電子皮膚，讓義肢有觸覺</td>
 <td align="left">2017/04/05 18:39</td>
-<td align="right">1284</td>
+<td align="right">1288</td>
 </tr>
 <tr class="odd">
 <td align="left">重大訊息待公布　宣昶、文曄明日暫停交易</td>
 <td align="left">2017/04/05 18:30</td>
-<td align="right">3253</td>
+<td align="right">3262</td>
 </tr>
 <tr class="even">
 <td align="left">台一國際有價證券　7日起停止買賣</td>
 <td align="left">2017/04/05 18:21</td>
-<td align="right">1390</td>
+<td align="right">1396</td>
 </tr>
 <tr class="odd">
 <td align="left">【財訊】讓友達高層入監的美國司法官 低調來台</td>
 <td align="left">2017/04/05 18:00</td>
-<td align="right">2708</td>
+<td align="right">2716</td>
 </tr>
 <tr class="even">
 <td align="left">小米米粉節明登場　新零售策略撒1億民幣紅包</td>
 <td align="left">2017/04/05 17:53</td>
-<td align="right">2193</td>
+<td align="right">2200</td>
 </tr>
 <tr class="odd">
 <td align="left">【完勝片】2天綁卡41.5萬張　Apple Pay打趴台…</td>
 <td align="left">2017/04/05 17:50</td>
-<td align="right">26366</td>
+<td align="right">26385</td>
 </tr>
 <tr class="even">
 <td align="left">【台幣惹禍片】上市櫃去年匯損達1344億　金融保險最慘</td>
 <td align="left">2017/04/05 17:49</td>
-<td align="right">10956</td>
+<td align="right">10965</td>
 </tr>
 <tr class="odd">
 <td align="left">Wi-Ho!攜Canon辦日本美景攝影賽　特獎送單眼</td>
@@ -345,81 +341,80 @@ kable(data)</code></pre>
 <tr class="even">
 <td align="left">【這檔鴻家軍好慘～】富智康暴跌12%　吃掉今年漲幅一半</td>
 <td align="left">2017/04/05 17:00</td>
-<td align="right">6798</td>
+<td align="right">6811</td>
 </tr>
 <tr class="odd">
 <td align="left">【財訊】王謝堂前燕的京料理</td>
 <td align="left">2017/04/05 17:00</td>
-<td align="right">678</td>
+<td align="right">679</td>
 </tr>
 <tr class="even">
 <td align="left">中華電4月推多款手機方案　老客戶享4千元優惠</td>
 <td align="left">2017/04/05 16:56</td>
-<td align="right">5921</td>
+<td align="right">5940</td>
 </tr>
 <tr class="odd">
 <td align="left">台塑越鋼投產有望？越南環境部：已達試車標準</td>
 <td align="left">2017/04/05 16:50</td>
-<td align="right">2353</td>
+<td align="right">2359</td>
 </tr>
 <tr class="even">
 <td align="left">中美冠科延攬美時董座林羣　出任獨董</td>
 <td align="left">2017/04/05 16:48</td>
-<td align="right">621</td>
+<td align="right">622</td>
 </tr>
 <tr class="odd">
 <td align="left">鋼筋銷加國反傾銷終判　豐興0%、東鋼5.9%</td>
 <td align="left">2017/04/05 16:47</td>
-<td align="right">1211</td>
+<td align="right">1213</td>
 </tr>
 <tr class="even">
 <td align="left">新台幣收盤~30.381元　貶值4.5分</td>
 <td align="left">2017/04/05 16:10</td>
-<td align="right">1143</td>
+<td align="right">1146</td>
 </tr>
 <tr class="odd">
 <td align="left">八里污水處理廠出包　財部：非列管促參案</td>
 <td align="left">2017/04/05 16:03</td>
-<td align="right">1118</td>
+<td align="right">1120</td>
 </tr>
 <tr class="even">
 <td align="left">【財訊】黃哲斌：囧星人大驚奇！「知識網紅」如何變現？</td>
 <td align="left">2017/04/05 16:00</td>
-<td align="right">291</td>
+<td align="right">292</td>
 </tr>
 <tr class="odd">
 <td align="left">彭博調查：彭淮南卸任前　央行將於Q4開始升息</td>
 <td align="left">2017/04/05 16:00</td>
-<td align="right">5020</td>
+<td align="right">5031</td>
 </tr>
 <tr class="even">
 <td align="left">【看圖說話】南韓24產業領先中國不到1年　台灣呢？</td>
 <td align="left">2017/04/05 15:50</td>
-<td align="right">3254</td>
+<td align="right">3267</td>
 </tr>
 <tr class="odd">
 <td align="left">大立光Q1營收季減31%　4月不會比3月好</td>
 <td align="left">2017/04/05 15:41</td>
-<td align="right">2319</td>
+<td align="right">2328</td>
 </tr>
 <tr class="even">
 <td align="left">官網遭駭不顯示？新壽：去年活動正常移除</td>
 <td align="left">2017/04/05 15:17</td>
-<td align="right">560</td>
+<td align="right">561</td>
 </tr>
 <tr class="odd">
 <td align="left">【財訊】于卓民：留住員工始於招募時</td>
 <td align="left">2017/04/05 15:00</td>
-<td align="right">427</td>
+<td align="right">431</td>
 </tr>
 <tr class="even">
 <td align="left">TPK 3月營收成長14%　Q1季減13.4%</td>
 <td align="left">2017/04/05 14:53</td>
-<td align="right">996</td>
+<td align="right">1001</td>
 </tr>
 </tbody>
 </table>
-</div>
 
 
 
