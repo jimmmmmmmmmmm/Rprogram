@@ -14,8 +14,8 @@ views<- xpathSApply(xmldoc, "//span[@class=\"views\"]", xmlValue)
 views
 alldata <- data.frame(title, time, views)
 
-write.table(alldata, "pttmovie.csv")
+write.table(alldata, "applefinance.csv")
 
 library(knitr)
-data = read.table("pttmovie.csv")
+data = read.table("applefinance.csv")
 kable(data)

@@ -1,0 +1,56 @@
+---
+title: "HW3空氣品質監測日污染指標PM10"
+author: "B02607022 簡士鈞"
+date: "2017/4/30"
+output: html_document
+---
+
+#資料為4/14~4/28日各地測站收集每小時空污指標濃度後換算為每日平均濃度
+
+PM10指粒徑在10微米以下之粒子，又稱浮游塵。
+主要來源包括道路揚塵、車輛排放廢氣、露天燃燒、營建施工及農地耕作等，或由原生性空氣污染物轉化成之二次污染物，由於粒徑小於10微米以下，能深入人體肺部深處，如該粒子附著其他污染物，則將加深對呼吸系統之危害。
+
+```{r cars}
+rm(list = ls(all=TRUE))
+library(dplyr)
+library(knitr)
+rawdata = read.csv(
+  'airpollutiontest.csv',
+  encoding = 'UTF-8')
+
+#各地測站懸浮微粒日平均濃度
+df <- rawdata %>% group_by(SiteName)
+result1 = summarise(df, mean(PM10SubIndex))
+write.table(result1, "result1")
+data = read.table("result1")
+kable(data)
+
+#4/14~28所有測站整體平均
+mean1=mean(rawdata$PM10SubIndex,na.rm = T)
+mean1
+
+#每日懸浮微粒平均濃度
+df <- rawdata %>% group_by(MonitorDate)
+result11 = summarise(df, mean(PM10SubIndex))
+write.table(result11, "result11")
+data = read.table("result11")
+kable(data)
+
+#不符合台灣標準之測站地點：24小時平均值不得超過125 μg／m3
+dfTWSd <- rawdata %>% group_by(SiteName)
+result2 = dfTWSd %>% filter(PM10SubIndex>125)
+write.table(result2, "result2")
+data = read.table("result2")
+kable(data)
+
+#不符合歐盟標準之測站地點：24小時平均值不得超過50 μg／m3
+dfEUSd <- rawdata %>% group_by(SiteName)
+result3 = dfEUSd %>% filter(PM10SubIndex>50)
+EUPM10=result3  %>% group_by(SiteName)
+result4=summarise(EUPM10)
+write.table(result4, "result4")
+data = read.table("result4")
+kable(data)
+
+```
+
