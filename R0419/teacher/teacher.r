@@ -23,7 +23,7 @@ typeId = c(2:9)
 newTable = data.frame()
 for( nid in c(48:n) )
 {
-  year = as.matrix(rep(rawdata$Year[nid], length(rawdata[nid,typeId])))
+  year = as.matrix(rep(rawdata$year[nid], length(rawdata[nid,typeId])))
   people = as.matrix(as.numeric(rawdata[nid,typeId]))
   type = as.matrix(as.character(allType[typeId]))
   temp = cbind(year, log(people), type)

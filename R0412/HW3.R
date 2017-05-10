@@ -22,13 +22,17 @@ result3 = dfEUSd %>% filter(PM10SubIndex>50)
 EUPM10=result3  %>% group_by(SiteName)
 result4=summarise(EUPM10)
 #高於整體平均的地區
-dfTAVG <- result1 %>% group_by(SiteName)
-result5 = dfTAVG %>% filter(result1$mean(PM10SubIndex)>mean1)
+complete.cases(result1)
+rm.result1 <- result1[complete.cases(result1), ]
+dfTAVG <- rm.result1 %>% group_by(SiteName)
+result5 = dfTAVG %>% filter(rm.result1[,2]>mean1)
 AAVG=result5  %>% group_by(SiteName)
 result6=summarise(AAVG)
 #低於整體平均的地區
-dfTAVG1 <- result1 %>% group_by(SiteName)
-result7 = dfTAVG1 %>% filter(mean(PM10SubIndex)<mean1)
+complete.cases(result1)
+rm.result1 <- result1[complete.cases(result1), ]
+dfTAVG1 <- rm.result1 %>% group_by(SiteName)
+result7 = dfTAVG1 %>% filter(rm.result1[,2]<mean1)
 BAVG=result7  %>% group_by(SiteName)
 result8=summarise(BAVG)
 #係指粒徑在10微米以下之粒子，又稱浮游塵。主要來源包括道路揚塵、
