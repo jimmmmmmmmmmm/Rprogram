@@ -1,3 +1,12 @@
+---
+title: "Untitled"
+author: "B02607022 簡士鈞"
+date: "2017/5/23"
+output: html_document
+---
+
+
+```{r cars}
 rm(list=ls(all.names = TRUE))
 library(NLP)
 library(tm)
@@ -30,17 +39,9 @@ docs <- tm_map(docs, toSpace, "了")
 docs <- tm_map(docs, toSpace, "標題")
 docs <- tm_map(docs, toSpace, "報價")
 
-#移除標點符號 (punctuation)
-#移除數字 (digits)、空白 (white space)
 docs <- tm_map(docs, removePunctuation)
 docs <- tm_map(docs, removeNumbers)
 docs <- tm_map(docs, stripWhitespace)
-#語詞詞幹化 (stemmization)
-#以英文為例
-#https://zh.wikipedia.org/wiki/%E8%AF%8D%E5%B9%B2%E6%8F%90%E5%8F%96
-#library(SnowballC)
-#確保任何形式的單字只會轉換成相同詞性出現一次
-#docs <- tm_map(docs, stemDocument)英文文本要加這行
 
 cutter=worker("tag")
 mixseg = worker()
@@ -57,3 +58,5 @@ wordcloud(freqFrame$Var1,freqFrame$Freq,
           rot.per=.1, colors=brewer.pal(8, "Dark2"),
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
+```
+

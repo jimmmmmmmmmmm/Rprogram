@@ -1,106 +1,193 @@
 "x"
-"1" "作者sn94267 (拂過草原上的風)看板NTUcourse標題[News] 教發中心_平日晚上免費學習諮詢時間Tue Apr 25 00:13:15 2017
-教發中心 ║ 學習諮詢 ║ 免費課業諮詢
-
-
-不問對錯！我們挺你！
-
-網頁點選「上課狀況」，現場登記也OK！
-
-網頁點選「熱問排行榜」還可以預習小老師用心準備的 Top 10 問題！
-
-
-
-
-
-║ 臺大優秀學長姊擔任小老師、替你解決課業疑難雜症
-
-║ 若無預約，建議先上網查看教室狀況，或打電話02-3366-9593，同一時段最多可教授
-   4位同學
-
-║ 諮詢科目：微積分、英文、普物、普生、普化、統計學、經濟學
-
-║ 預約網頁：https://ctld.ntu.edu.tw/ls/reservation/v3/
-
-║ 諮詢地點：臺大第一學習開放空間 (總圖書館B1，自習室對面)
-
-║ 諮詢時間：106年 03 月 13 日 (一) 至 06 月 23 日 (五)
-
-║ 為顧及同學權益，線上預約若取消五次或缺席兩次，則該學期喪失預約權限，預約前
-   務必確認自己的時間規劃唷！
-
-║ 預約系統每週五晚上12點開放隔週預約時段
-
-║ 期末考季節自 05/29 起將加開課程班次，屆時請多多留意網頁公告喔！
-
-
-
-
-有任何疑問，歡迎來電教發中心學習促進組 濱島小姐
-☎：02-3366-3367轉554； email：[email protected]/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */
+"1" "作者fish9247 (魯肥宅＠＠)看板NTUcourse標題[求救] 徵求 林明昕 行政救濟法補課錄音時間Sun May 14 18:32:36 2017
+因為有事情沒有辦法來禮拜六的補課
+希望能徵求林明昕老師行政救濟法
+4/29和5/13禮拜六的錄音
+私信 有報酬 感謝
 
 --
-※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 123.193.67.4
-※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1493050397.A.497.html
-推 rrro: 推！ 04/25 02:00
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 42.72.79.25
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1494757958.A.F61.html
 "
-"2" "作者sotheresthat ()看板NTUcourse標題[求救] 航空及太空法 進度時間Tue Apr 25 00:35:36 2017
+"2" "作者waynewu86 (丫亭)看板NTUcourse標題[News] 暑期台大課程［臨床觀察與需求探勘］時間Tue May 16 00:03:21 2017
+[課程資訊]暑期台大課程［臨床觀察與需求探勘］
+暑期課程開始報名囉~~ 名額有限要搶要快~~
+你有一個，想探討醫療市場和長久的健康議題卻苦無切入點的心嗎，不論你是滿腦子的商業分析能力、還是渾身機械電子的工程實力，加入源自史丹佛的Bio-Design臨床需求探勘，不論是學生階段，還是想要進修認識創業和學習夥伴，都是你最好的切入點。
 
-想請教有沒有同學知道這兩星期老師有沒有交代什麼重要的事情
-例如校外參訪或期末報告的消息
-感激不盡
+報名資格 : 大專院校學生、博士後研究員、教師、醫師、商管與產業界人士
+課程內容：每週有一次課程演講（週六）及一次的臨床見習或訪談（平日）
+課程時間 : 07/29-09/09 每周六 8:00-12:00
+課程地點 : 臺大醫學院 基礎醫學大樓402教室（8/26）、303講堂（其餘時段）
+主辦單位：台大跨領域菁英培訓推動中心
+協辦單位：台大醫工所、生醫電資所
+聯絡信箱：[email protected]/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */
+課程費用：外校生需繳交保證金 3000元（退還保證金細節請參考下方說明。）
+業界需繳交報名費 3000元 （非保證金，不退還。）
+
+★即日起至106/5/26截止收件，經篩選後會於106/6/4以E-mail寄發通知，
+請確實填寫個人資料，避免未接獲通知，謝謝!
+若第一階段報名未滿則開放第二階段報名至5/31，
+[email protected]/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */，謝謝!
+★時程安排
+★5/12-5/26 第一階段報名
+★5/27-5/31 第二階段報名(若第一階名額未滿）
+★6/4 寄信通知學員錄取名單
+★6/6-6/7 外校學生網路報名（台科大、台師大學生可修學分）
+★★6/14 外校學生繳交申請書、學分費4,450元以及修課同意書
+報名表單:
+https://docs.google.com/forms/d/e/1FAIpQLSe8YU-ndbSV3ccE6W5L4_bVCnmIZeJgqO6_NFjRZ134BcpChg/viewform?c=0&w=1
+
 
 --
-※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.220.182
-※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1493051738.A.4EE.html
-推 flyer1998: 沒有喔 都在上課 04/25 00:40
-→ sotheresthat: 謝謝！ 04/25 00:46
-"
-"3" "作者kuno1358 (Agnes)看板NTUcourse標題[問題] 呂碧琴老師的適能瑜珈時間Tue Apr 25 09:26:15 2017
-不好意思，想請問有修課的同學
-今天12節的課老師有沒有點名呢？
-有沒有說什麼注意事項？
-有沒有說期中考跳繩什麼時候考呢？
-
-我記得老師上週說這週要帶大家跑醉月湖，我看課程安排下週和下下週都因為全大運放假
-了，我不認識班上同學，希望這裡有人可以幫我解惑，先謝謝各位了
+Sent from my Windows
 
 --
-※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 27.242.99.216
-※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1493083578.A.E11.html
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.218.112
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1494864203.A.584.html
+推 flyer1998: 連結沒弄好耶 05/16 10:41
 "
-"4" "作者savieckclwtw (savie)看板NTUcourse標題[News] 早期美國文學停課時間Tue Apr 25 11:31:40 2017
-不知道為什麼助教沒有寄信給大家
-總之今天下午2:20-5:20梁欣榮老師的早期美國文學停課了
-上禮拜有些人也沒來上課，也沒有公告
-在此告訴大家～
+"3" "作者Mike1995 (邁可)看板NTUcourse標題[問題] 請問刑法分則（王皇玉老師）課程進度時間Tue May 16 14:10:50 2017
+各位好！
 
-Prof. Leung's American Literature to 1860 is cancelled today.
+我是上學期王老師刑法分則的修課同學；上學期學期末時有向老師登記領取這學期的上課講義（老師上、下學期課程內容不一樣）。
 
---
-※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.4.190
-※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1493091103.A.7EC.html
-"
-"5" "作者symphonicark (Noah)看板NTUcourse標題[問題] 關於胡林煥老師的排球初級時間Tue Apr 25 16:57:51 2017
-我今年選修胡老師的排初，期中考個人低+高手40下安全通過
-但是在期末考的考試中必須要和自己的組員隔網對打40下，而我的組員剛好....不太給力
-，每次正的發過去就斜的噴出界，連5下都無法連續ˊ_>ˋ
-我自己私底下在和朋友練的時候可以穩穩的打完全沒有這個問題，所以很擔心我的體育成
-績爆炸（泣）
-請問胡老師的課考雙打可以請同一堂體育課的同學來幫忙or非體育課的同學（非排球隊）
-來幫忙打嗎？
-天啊體育課好痛苦........
+但期中考週後有幾次未能親往教室領取，今天上課前到教室看也沒有看到新講義；想請問有修課的同學，老師至今講義發放進度到哪裡了呢？
+
+我手邊的講義只到竊盜罪章的前半部分；希望有同學能提供情報以便確認。謝謝！
 
 --
-※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.240.181.160
-※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1493110673.A.EC2.html
-推 dennylu97: 我記得可以請同堂的同學，而且老師應該也會看動作評分 04/25 23:46
-推 yukofq: 樓上學長好罩>///< 04/26 02:01
-推 vcyc: 我記得最後能找另一人來測(印象 04/26 08:49
-推 pttnowash: 連續來回40下且合規則 感覺不容易ㄟ 就像你提的易凸槌 04/26 09:17
-→ pttnowash: 大概就跟籃球罰球要連進5顆的感覺 NBA球員也會凸槌阿 04/26 09:17
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.181.202
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1494915052.A.36C.html
+※ 編輯: Mike1995 (140.112.181.202), 05/16/2017 14:12:58
 "
-"6" "作者chy1010 (need not to know)看板NTUcourse標題[徵求] 請在此徵求課程之筆記文章、錄音檔時間Sat Mar  4 20:04:28 2006
+"4" "作者musashi66666 (634)看板NTUcourse標題[評價] 105-1姜堯民 財務管理時間Tue May 16 14:45:40 2017
+
+      ※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：否
+
+
+      哪一學年度修課：105-1
+
+      ψ 授課教師        姜堯民
+
+      λ 開課系所與授課對象     財金系
+
+      δ 課程大概內容
+
+        第一周   introduction
+        第二周   introduction to corporate finance
+        第三周   financial statement analysis
+        第四周   time value of money
+        第五周   application of TVM
+        第六周   bond pricing
+        第七周   stock pricing
+        第八周   investment decision rules
+        第九周   MIDTERM EXAM
+        第十周   capital budgeting analysis
+        第十一周 cost if capital
+        第十二周 capital structure
+        第十三周 raising capital
+        第十四周 dividend policy
+        第十五周 merger and acquisition
+        第十六周 merger and acquisition: a case study
+        第十七周 corporate governance
+        第十八周 FINAL EXAM
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+                ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+ Jonathan Berk and Peter DeMarzo,Corporate Finance:Global Edition 3/e,Pearson
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+教授在上課前就會把投影片上傳到ceiba，基本上上課就是照投影片講解，
+
+教授的口條很好，思路也很清晰，遇到計算cash flow的問題也會很有耐心的先帶
+
+大家按一次財務計算機，再用excel表演一次給我們看XD
+
+前幾堂課教授突然想到問題要問同學的時候，會拿自製的excel抽籤點名，不過答不出
+
+來或是沒到好像也不會怎麼樣@@ 到後來開始趕課之後就很少抽了XD
+
+
+
+作業方面，印象中這學期有3次(還是4次)個人作業，兩次團體作業。
+
+個人作業很簡單，其中一次是要你找當周跟財務有關的新聞，印下來並手寫摘要。
+
+另外幾次是段考前的選擇題，其實就是期中期末考的複習&大洩題啦XD
+
+
+團體作業3~5人一組，自己分好登記即可。不過教授開的課的團體作業都是有點難度的，
+
+記得有某次是給我們8個公司的報表資料，叫我們配對公司名稱，需要動點腦XD
+
+另一次我只記得很複雜，但具體有點忘了是做甚麼的，只能說記得慎選隊友....
+
+
+
+最後成績方面，真的完全不用擔心XDDDD
+
+期中考有公佈平均，我記得是80左右，個人考了94，期末有點for fun，
+
+最後幾份PPT根本沒看完就去考試了，結果還是拿了A+
+
+
+
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        * Class participation   10%
+        * Quizzes       20%
+        * Homework      20%
+        * Midterm test  25%
+        * Final test 25%
+
+        個人覺得應該算扎實偏甜
+
+      ρ 考題型式、作業方式
+
+        20~25題選擇，5~10題填充。可以帶財務計算機。
+
+        (只要有計算機這堂課真的很輕鬆XD)
+
+        作業上面有說了。
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+              加簽習慣？嚴禁遲到等…)
+
+應該有先修會計學和經濟學的規定。不過其實只要看得懂損益表就可以了啦...
+
+出席率應該不重，不過修過教授課的人都有一種感覺，就是老師不會把PPT寫得非常詳盡
+
+，如果都不去上課，看PPT可能會覺得有點卡卡，還是去上課抄筆記比較好懂
+
+加簽的話，教授真的很佛心，他的每一堂課幾乎都是全簽^^
+
+
+      Ψ 總結
+
+超級大推姜堯民!! 修了他的財務管理、投資學、房地產投資，雖然常常會聽到重複的故事
+
+XDD，但真的學得到東西、輕鬆、又可以爽拿A+，三個願望一次滿足!!!!!!
+
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 118.160.31.158
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1494917142.A.4FF.html
+推 applechinhua: 推，超讚 05/16 17:03
+推 linfactom: 根本GPA爽爽刷 05/17 11:09
+"
+"5" "作者chy1010 (need not to know)看板NTUcourse標題[徵求] 請在此徵求課程之筆記文章、錄音檔時間Sat Mar  4 20:04:28 2006
 如前文所述.
 
 各位同學若想徵求 \"筆記講義, 錄音檔\" 等等可在此篇文章中推文表示.
@@ -138,8 +225,15 @@ Prof. Leung's American Literature to 1860 is cancelled today.
 → harwardyeh: 酬可議 04/02 18:36
 推 lizzzhung: 求4/14周漾沂刑總第一節錄音謝謝，看醫生來不及上課QQ 04/14 14:14
 推 SunShoes5566: 徵黃昭元老師4／14國際公法錄音檔！酬可議。謝謝！ 04/14 16:40
+推 a098791: 徵李素華 智財導上課講義 04/28 11:15
+推 qazwsx321tw: 徵陳思賢老師 4/25西政哲錄音檔 酬勞站內謝謝! 05/02 08:47
+推 Jsy2014: 徵 海峽兩岸關係史二 學期筆記 酬勞可議 站內信謝謝! 05/04 00:32
+推 tropicx: 征林明昕老師行政救濟法筆記 酬勞500 站內信感謝 05/11 16:06
+推 fish9247: 徵 林明昕老師 行政救濟法 4/29及5/13補課錄音 謝謝 05/15 16:01
+推 fish9247: 徵 4/7 蔡英欣 海商法第一節課的錄音 05/16 15:18
+推 yangfeng: 徵5/10 呂世浩 史記三 錄音檔 酬勞可議 站內信謝謝 05/17 13:32
 "
-"7" "作者benck (小倫)看板NTUcourse標題[整理] 常見Q&A 發文前必看時間Tue Feb 23 14:20:02 2010
+"6" "作者benck (小倫)看板NTUcourse標題[整理] 常見Q&A 發文前必看時間Tue Feb 23 14:20:02 2010
 初選
 
 Q：二階初選可以選衝堂的課嗎？ (2011/1/25 update)
@@ -251,7 +345,7 @@ A：不論是否修完學程學分，皆不會顯示在畢業證書上，未修�
 → jtncculaw: 參考台大公道伯 https://www.facebook.com/ntusite88 04/19 21:40
 → Lhibee: 亦可請參考 Daan 大安版 <台大公道伯官網> 新法律課程 12/03 12:48
 "
-"8" "作者benck (小倫)看板NTUcourse標題[公告] NTUCourse板板規 (2010.7.18更新)時間Sun Sep 20 20:03:09 2009
+"7" "作者benck (小倫)看板NTUcourse標題[公告] NTUCourse板板規 (2010.7.18更新)時間Sun Sep 20 20:03:09 2009
 最後修改：2010/7/18，將管理準則第7條增列何謂鬧板事實
 
   一、NTUcourse板開板目的
