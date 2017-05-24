@@ -14,5 +14,5 @@
 #   Test Package:              'Cmd + Shift + T'
 
 hello <- function() {
-  print("Hello, 123!")
+  print("Hello, 12345!")
 }
