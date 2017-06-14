@@ -29,7 +29,8 @@ data$x<-factor(data$x,levels=c("August","September","Octobor","November","Decemb
 
 p <- plot_ly(data, x = ~x, y = ~PM2.5, name = 'before(2013-2014)', type = 'scatter', 
              mode = 'lines+markers') %>%
-   add_trace(y = ~trace_1, name = 'after(2014-2015)', mode = 'lines+markers') 
+   add_trace(y = ~trace_1, name = 'after(2014-2015)', mode = 'lines+markers') %>%
+  layout(autosize = F,width = 1000,height = 500)
 p
 
 ```
