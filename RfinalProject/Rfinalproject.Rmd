@@ -30,7 +30,6 @@ p <- plot_ly(data, x = ~Month, y = ~PM2.5, name = 'before(2013)', type = 'scatte
    add_trace(y = ~trace_1, name = 'after(2014)', mode = 'lines+markers')
 p
 
-htmlwidgets::saveWidget(p,"beforeafter.html")
 ```
 
 行天宮實施禁香措施是從2014年8月開始，上圖為禁香前一年與禁香後同月份的PM2.5濃度比較圖，從2014年8月後的濃度變化可看出整體較前年濃度降低許多，可知禁香後對於當地空氣品質改善發揮顯著效果，這是支持禁香的廟宇信徒樂於見到的結果，也是環保署近年來積極呼籲禁燒金燒香所期望達到的成果。
