@@ -27,14 +27,14 @@ data <- data.frame(x=c("August","September","Octobor","November","December","Jan
 data$x<-factor(data$x,levels=c("August","September","Octobor","November","December","January",
                                "February","March","April","May","June","July"))
 
-p <- plot_ly(data, x = ~x, y = ~PM2.5, name = 'before(2013-2014)', type = 'scatter', 
-             mode = 'lines+markers') %>%
+p <- plot_ly(data, x = ~x, y = ~PM2.5, name = 'before(2013-2014)', type = 'scatter', mode = 'lines+markers') %>%
    add_trace(y = ~trace_1, name = 'after(2014-2015)', mode = 'lines+markers') %>%
-  layout(autosize = F,width = 1000,height = 500)
+  layout(margin=list(l=50,r=50,b=75,t=50,pad=0),autosize = F,width = 1000,height = 500,xaxis=list(title="Month"))
 p
 
 ```
 <br/>
+圖.行天宮禁香前後萬華區測站PM2.5濃度變化圖
 <br/>
 <br/>
 行天宮實施禁香措施是從2014年8月開始，上圖為禁香前一年與禁香後同月份的PM2.5濃度比較圖，從2014年8月後的濃度變化可看出整體較前年濃度降低許多，可知禁香後對於當地空氣品質改善發揮顯著效果，這是支持禁香的廟宇信徒樂於見到的結果，也是環保署近年來積極呼籲禁燒金燒香所期望達到的成果。
