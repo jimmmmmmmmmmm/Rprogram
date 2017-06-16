@@ -18,15 +18,13 @@ rawData=read.csv('beforeafter.csv',header = TRUE)
 
 PM2.5 <- rawData$before.2013.
 trace_1 <- rawData$after.2014.
-
-data <- data.frame(x=c("August","September","Octobor","November","December","January",
-                       "February","March","April","May","June","July"), PM2.5, trace_1)
-data$x<-factor(data$x,levels=c("August","September","Octobor","November","December","January",
-                               "February","March","April","May","June","July"))
+month=c("八月","九月","十月","十一月","十二月","一月","二月","三月","四月","五月","六月","七月")
+data <- data.frame(x=as.factor(month), PM2.5, trace_1)
+data$x<-factor(data$x,levels=month)
 
 p <- plot_ly(data, x = ~x, y = ~PM2.5, name = 'before(2013-2014)', type = 'scatter', mode = 'lines+markers') %>%
    add_trace(y = ~trace_1, name = 'after(2014-2015)', mode = 'lines+markers') %>%
-  layout(margin=list(l=50,r=50,b=75,t=50,pad=0),autosize = F,width = 1000,height = 500,xaxis=list(title="月份"),yaxis=list(title="PM2.5(μg/m3)"))
+  layout(margin=list(l=50,r=50,b=75,t=50,pad=0),autosize = F,width = 1000,height = 500,xaxis=list(title="月份"),yaxis=list(title="PM2.5濃度(μg/m3)"))
 p
 ```
 <br/>
