@@ -66,6 +66,6 @@ p
 <img style="-webkit-user-select: none;background-position: 0px 0px, 10px 10px;background-size: 20px 20px;background-image:linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);cursor: zoom-in;" src="http://i38.photobucket.com/albums/e106/chiahciahsu/wordcloud_zpsqc89pdqj.png" width="800" height="600">
 </div>
 <br/>
- <p>而從行天宮禁香相關新聞的網路留言文字雲可以得知，最大的爭議點仍為傳統以及環保之間的抉擇，也看到石化、工業等關鍵字。對於空氣汙染來說，寺廟及居家燒香造成的細懸浮粒子，當然不及工業排放，卻是民眾最常近身接觸的。從健康的角度出發，禁香減量的確有助於減少人體暴露於空氣污染。
- <p>就像行天宮一樣，勿以善小而不為，改變觀念也許可以促進更多人，投入減少空氣汙染的實際行動中。
+<p>而從行天宮禁香相關新聞的網路留言文字雲可以得知，最大的爭議點仍為傳統以及環保之間的抉擇，也看到石化、工業等關鍵字。對於空氣汙染來說，寺廟及居家燒香造成的細懸浮粒子，當然不及工業排放，卻是民眾最常近身接觸的。從健康的角度出發，禁香減量的確有助於減少人體暴露於空氣污染。
+<p>就像行天宮一樣，勿以善小而不為，改變觀念也許可以促進更多人，投入減少空氣汙染的實際行動中。
 
